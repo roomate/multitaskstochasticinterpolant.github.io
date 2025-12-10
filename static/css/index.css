@@ -47,9 +47,9 @@
 
 .imgContainer img,
 .imgContainer video {
-  display: block;
-  height: auto;
-  max-width: 100%;
+  display: block !important;
+  height: auto !important;
+  max-width: 100% !important;
   margin: 0 auto !important;
 }
 
