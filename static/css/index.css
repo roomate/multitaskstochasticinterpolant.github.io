@@ -59,11 +59,13 @@
 
 .imgContainer p {
   /* Hauteur minimale fixe pour éviter le décalage */
+  display: flex;
+  flex-direction: column;
   min-height: 3em;
   /* Assez pour 2 lignes */
-  margin-top: .5em;
+  margin-top: auto;
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: 1;
   font-size: 0.9em;
 
   /* Optionnel : centre le texte verticalement */
