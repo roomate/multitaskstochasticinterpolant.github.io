@@ -48,14 +48,14 @@
   margin: 0 10px;
 }
 
-/* .imgContainer img,
+.imgContainer img,
 .imgContainer video {
   display: block !important;
   height: auto !important;
   max-width: 100% !important;
   margin: 0 auto !important;
-  margin-top: auto !important;
-} */
+  margin-bottom: auto !important;
+}
 
 .imgContainer p {
   /* Hauteur minimale fixe pour éviter le décalage */
