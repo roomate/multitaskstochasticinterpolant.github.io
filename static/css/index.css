@@ -81,7 +81,8 @@
   .imgContainer {
     width: 45%;
     /* 2 images par ligne sur mobile */
-    margin: 5px;
+    vertical-align: top !important;
+    margin: auto;
     border-style: dotted;
     border-color: black;
   }
@@ -94,7 +95,6 @@
   .imgContainer p {
     font-size: 0.8em;
     min-height: 3.5em;
-    vertical-align: top !important;
     /* Un peu plus sur mobile car le texte wrap plus */
   }
 }
